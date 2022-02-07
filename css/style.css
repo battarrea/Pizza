@@ -33,7 +33,7 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*===========================================================================*/
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -65,7 +65,6 @@ body {
 	-webkit-box-sizing: content-box;
 	        box-sizing: content-box;
 }
-/*============================================================================*/
 .header {
 	padding: 36px 0px;
 }
@@ -89,9 +88,6 @@ body {
 .header__logo img {
 	max-width: 100%;
 }
-.header__menu {
-}
-.menu {}
 .menu__list {
 	display: -ms-flexbox;
 	display: -webkit-box;
@@ -116,7 +112,6 @@ body {
 .menu__link:hover {
 	text-decoration: underline;
 }
-/*============================================================================*/
 .page {
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 1 auto;
@@ -194,11 +189,9 @@ body {
 	-o-object-fit: cover;
 	   object-fit: cover;
 }
-/*============================================================================*/
 .progress {
 	padding: 115px 0px 0px 0px;
 }
-.progress__top {}
 .top-progress {
 	text-align: center;
 }
@@ -214,7 +207,6 @@ body {
 	        justify-content: center;
 	margin-bottom: 5px;
 }
-.top-progress__pattern {}
 ._icon-pattern {
 	font-size: 41px;
 	color: #ef2e35;
@@ -234,8 +226,6 @@ body {
 }
 .top-progress__menu {
 	margin-bottom: 45px;
-}
-.menu-progress {
 }
 .menu-progress__list {
 	display: -webkit-box;
@@ -289,7 +279,6 @@ body {
 	border: 7px solid transparent;
 	border-bottom: 7px solid #ef2e35;
 }
-/*============================================================================*/
 .progress__columns {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -303,7 +292,6 @@ body {
 	padding: 0px 5px 0px 5px;
 	margin: 0px 0px 15px 0px;
 }
-.progress__item {}
 .item-progress {
 	background-color: #fff;
 	display: -webkit-box;
@@ -368,7 +356,6 @@ body {
 	line-height: 133%;
 	max-width: 255px;
 }
-/*============================================================================*/
 .progress__low {
 	padding: 60px 0px 100px 0px;
 	text-align: center;
@@ -402,7 +389,6 @@ body {
 .progress__pic {
 	max-width: 100%;
 }
-/*============================================================================*/
 .footer {
 	background-color: #ef2e35;
 	padding: 40px 0px
@@ -427,16 +413,6 @@ body {
 	text-transform: uppercase;
 	color: #eaeaea;
 }
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
-/*============================================================================*/
 @media screen and (max-width: 1200px) {
 	.container {
 		max-width: 1140px;
@@ -542,7 +518,7 @@ body {
 		margin-right: 10px;
 	}
 	.item-progress__title {
-		font-size: 32px;
+		font-size: 30px;
 	}
 	._icon-create {
 		font-size: 60px;
